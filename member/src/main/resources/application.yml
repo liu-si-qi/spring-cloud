@@ -1,0 +1,11 @@
+
+#数据源配置
+spring:
+  datasource:
+    url:
+    data-username:
+    data-password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 数据库连接池配置
+    hikari:
+      allow-pool-suspension:
